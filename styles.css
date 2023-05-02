@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+  margin: 0 150px;
+  color: #59219E;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer_nav {
+  margin: 10px 0;
+}
+
+.footer_nav_items {
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.links {
+  gap: 30px;
+}
+
+.links li {
+
+  font-size: 16px;
+}
+
+.earn_link {
+  align-items: center;
+  font-size: 16px;
+  gap: 6px;
+}
+
+.earn_link img {
+  background-image: url(assets/ellipse.png);
+  object-fit: contain;
+  height: 22px;
+  width: 23px;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.contact {
+  background-color: #CCBDE3;
+  padding: 57px 80px;
+  flex-wrap: wrap;
+}
+
+#intro_message {
+  order: 1;
+  width: 50%;
+}
+
+#intro_message p {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  min-width: 554px;
+}
+
+.white_text {
+  color: #fff;
+}
+
+#chkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#chkbox_text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.contact_details {
+  margin-right: 20px;
+  order: 2;
+  width: 25%;
+}
+
+#fname {
+  height: 61.34px;
+  width: 228px;
+  margin-bottom: 18px;
+  padding-left: 10px;
+}
+
+#fname::placeholder {
+  color: #59219E;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#message {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  order: 3;
+  width: 23%;
+}
+
+#message textarea {
+  padding: 26px;
+  height: 91px;
+}
+
+#message textarea::placeholder {
+  color: #59219E;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#message button {
+  background-color: #FA9C29;
+  border: none;
+  height: 61px;
+  color: #fff;
+  font-weight: 800;
+}
+
+#policies {
+  order: 4;
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
